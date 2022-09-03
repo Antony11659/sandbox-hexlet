@@ -1,10 +1,11 @@
+import { strict as assert } from 'assert';
 import { capitalize } from '../src/capitalize.js'  
 
-if (capitalize('hello') !== 'Hello') {
+if (assert.equal(capitalize('hello'),'Hello')) {
 	throw new Error('this function works wrong');
 }
 
-if (capitalize('') !== '') {
+if (assert.equal(capitalize(''), '')) {
 	throw new Error('this function works wrong');
 }
 
