@@ -1,0 +1,22 @@
+{
+  "name": "hexlet-jest",
+  "version": "1.0.0",
+  "description": "practice jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Antony11659/sandbox-hexlet/hexlet-jest.git"
+  },
+  "keywords": [
+    "11659gry"
+  ],
+  "author": "Anton Shur",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.2"
+  }
+}
